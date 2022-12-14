@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Caudex';
+    src: url(assets/fonts/Caudex-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Caudex-Bold';
+    src: url(assets/fonts/Caudex-Bold.ttf);
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Caudex';
+    /* color: white; */
+    margin: 0;
+}
+
+#main-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+
+#img-banner {
+    background-image: url(assets/images/ramen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+}
+
+#rating {
+    text-align: center;
+    margin: 5px;
+}
