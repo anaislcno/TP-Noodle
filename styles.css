@@ -18,6 +18,7 @@ body {
     font-family: 'Caudex';
     color: white;
     margin: 0;
+    letter-spacing: 2px;
 }
 
 #main-wrapper {
@@ -62,16 +63,64 @@ li:hover {
     background-position: center;
     background-size: cover;
     padding: 15px;
-    filter: grayscale(30%);
+    filter: grayscale(50%);
     min-height: 90vh;
+    position: relative;
 }
 
-#rating p {
+#rating {
     text-align: center;
     margin: 0;
     padding: 25px;
+    width: 100%;
+    height: 70px;
+    padding: 0;
 }
 
 header, footer {
     background-color: #1d1d1d;
+}
+
+.location {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    text-shadow: 2px 2px 4px black;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.location-cont {
+    top:44%;
+}
+
+#take-in-out {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    font-size: 18px;
+    letter-spacing: 4px;
+    width: 100%;
+    top: 55%;
+}
+
+.cover {
+    border: 2px solid white;
+    padding: 8px 50px;
+    margin: 20px;
+    background-color: rgba(45, 45, 45, 0.7);
+}
+
+.cover:hover {
+    border: 2px solid #ffBd00;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dine-in {
+    border: 2px solid #ffBd00;
+}
+
+footer {
+    border-top: 2px solid #ffBd00;
 }
